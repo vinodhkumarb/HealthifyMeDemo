@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.main-header{
+background-color: #F47A48;
+   overflow: hidden;
+        color: #fff;
+}
+.main-header h4,h5{
+    padding: 10px;
+}
+body{
+        background-color: #EEEEEE !important;
+}
+.clear{
+    clear: both;
+}
+.main-event div{
+        background-color: #fff;
+    overflow: hidden;
+    padding: 15px;
+        text-align: center;
+    cursor: pointer;
+}
+.main-width{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-event div:hover{
+    color: #F47A48;
+        border-bottom: 2px solid #F47A48;
+}
+.divspace{
+        padding: 12px 0;
+}
+.main-table{
+    background-color: #fff;
+        padding: 20px 30px;
+        overflow: hidden;
+}
+.main-event div:focus{
+      color: #F47A48;
+        border-bottom: 2px solid #F47A48;
+}
+.main-event div:active{
+      color: #F47A48;
+        border-bottom: 2px solid #F47A48;
+}
+.active{
+      color: #F47A48;
+        border-bottom: 2px solid #F47A48;  
+}
+.main-table-dropdown{
+    text-align: center;
+}
+.main-table-dropdown select{
+    border: none;
+    outline: none;
+    position: relative;
+    top: -8px;
+}
+.main-table-dropdown p{
+    font-size: 18px;
+}
+.border-bott{
+    border-bottom: 2px solid #eee;
+}
+.missed p,.called p,.pending p{   
+    border-radius: 100px;
+    color: #fff;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    bottom: -4px;
+}
+.name p{
+               padding: 5px 0;
+}
+.called p{
+      background-color: green;
+}
+.pending p{
+ background-color: orange;
+}
+.main-table h5{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.message-summary,.call-summary{
+    
+    display: none;
+}
+.search-header h4{
+    text-align: center;
+}
+.search-header{
+    background-color: #F47A48;
+   overflow: hidden;
+        color: #fff;
+}
+.search-header div:hover{
+    color: #fff;
+          border-bottom: 2px solid #fff;
+}
+.white-active{
+    color: #fff;
+          border-bottom: 2px solid #fff; 
+}
+.search-box{
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 1px 4px #000;
+}
+/* radio button */
+
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border:1px solid darkgray;
+    border-radius:50%;
+    outline:none !important;
+}
+input[type='radio']:before {
+    content:'';
+    display:block;
+    width:60%;
+    height:60%;
+    margin: 20% auto;    
+    border-radius:50%;    
+}
+input[type='radio']:checked:before {
+    background:#F47A48;
+}
+.search-radio{
+padding: 10px 0;
+}
+.search-radio label{
+    position: relative;
+    left: 8px;
+    top: -5px;
+        text-transform: uppercase;
+}
+.all-my-button{
+    margin-top: 20px;
+        border-radius: 0 !important;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    text-transform: uppercase;
+}
+.all-my-button-last{
+ margin-top: 0px;   
+}
+.outer-circle{
+    background: green;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   position: relative;
+        margin-top: 10px;
+}
+.inner-circle{
+    position: absolute;
+   background: #eee;
+   border-radius: 50%;
+    height: 43px;
+    width: 43px;
+    top: 4px;
+    left: 4px;
+}
+.inner-circle span{
+    position: relative;
+    top: 10px;
+    left: 11px;
+    color: #000;
+    text-transform: uppercase;
+}
+.sub-name{
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.main-inner-box{
+        background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 1px 4px #000;
+    padding: 10px
+}
+.icon-image div{
+    margin-top: 30px;
+}

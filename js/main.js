@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#call-click").click(function(){
+       $(".call-summary").show();
+        $(".message-summary").hide();
+        $("#call-click").addClass("active");
+        $("#message-click").removeClass("active");
+    });
+        $("#message-click").click(function(){
+       $(".message-summary").show();
+        $(".call-summary").hide();
+        $("#message-click").addClass("active");
+        $("#call-click").removeClass("active");
+    });
+});
